@@ -1,0 +1,25 @@
+2025-04-28 09:25:45 INFO  ExcelUtil:23 - excel loading started
+2025-04-28 09:25:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-04-28 09:25:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-04-28 09:25:46 DEBUG ExcelUtil:44 - Row 1Data : {Status=Enabled, TestCase=VerifyAddUserTest, UserRole=Admin, EmpName=Rehan, TestCaseDescription=VerifyAddUser}
+2025-04-28 09:25:46 INFO  ExcelUtil:50 - excel loading completed
+2025-04-28 09:25:50 INFO  BaseTest:52 - Browser insatnce created: null
+2025-04-28 09:27:15 INFO  ExcelUtil:23 - excel loading started
+2025-04-28 09:27:16 INFO  ExcelUtil:50 - excel loading completed
+2025-04-28 09:27:18 INFO  BaseTest:52 - Browser insatnce created: null
+2025-04-28 09:29:28 INFO  ExcelUtil:23 - excel loading started
+2025-04-28 09:29:29 INFO  ExcelUtil:50 - excel loading completed
+2025-04-28 09:29:31 INFO  BaseTest:52 - Browser insatnce created: null
+2025-04-28 09:29:38 INFO  BaseTest:52 - Browser insatnce created: null
+2025-04-28 09:29:45 INFO  BaseTest:52 - Browser insatnce created: null
+2025-04-28 09:38:02 INFO  ExcelUtil:23 - excel loading started
+2025-04-28 09:38:03 INFO  ExcelUtil:50 - excel loading completed
+2025-04-28 09:38:06 INFO  BaseTest:52 - Browser insatnce created: chrome
+2025-04-28 09:38:18 INFO  BaseTest:52 - Browser insatnce created: chrome
+2025-04-28 09:40:35 INFO  ExcelUtil:23 - excel loading started
+2025-04-28 09:40:36 INFO  ExcelUtil:50 - excel loading completed
+2025-04-28 09:40:38 INFO  BaseTest:52 - Browser insatnce created: chrome
+2025-04-28 09:40:49 INFO  BaseTest:52 - Browser insatnce created: chrome
+2025-05-01 13:20:32 INFO  ExcelUtil:23 - excel loading started
+2025-05-01 13:20:33 INFO  ExcelUtil:50 - excel loading completed
+2025-05-01 13:20:47 INFO  BaseTest:52 - Browser insatnce created: null

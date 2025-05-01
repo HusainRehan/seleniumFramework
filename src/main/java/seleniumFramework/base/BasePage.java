@@ -1,5 +1,7 @@
 package seleniumFramework.base;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver.Timeouts;
@@ -10,8 +12,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 import seleniumFramework.exception.WebElementException;
+import seleniumFramework.util.ExcelUtil;
 
-public class BasePage {
+public class BasePage extends AbstractBase {
+	private static final Logger logger = LogManager.getLogger(ExcelUtil.class);
 	
 	private WebDriver driver;
 	private WebDriverWait explicitWait;
@@ -32,8 +36,8 @@ public class BasePage {
 			element.clear();
 			element.sendKeys(text);
 		} catch (Exception e) {
-			System.out.println("element not interactable: " + element.toString());
-			System.out.println("element not interactable: " + e.getMessage());
+			logger.error("element not interactable: " + element.toString());
+			logger.error("element not interactable: " + e.getMessage());
 			throw new WebElementException("element not interactable: " + e.getMessage());
 		}
 		

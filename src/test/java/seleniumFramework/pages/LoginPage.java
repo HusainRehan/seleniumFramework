@@ -21,8 +21,8 @@ public class LoginPage extends BasePage {
 	
 	public void verifyLogin() {
 	try {
-		enterText(usernameTxnBtn, "Admin");
-		enterText(passwordTxnBtn, "admin123");
+		enterText(usernameTxnBtn,getProperty("application.username"));
+		enterText(passwordTxnBtn,getProperty("application.password"));
 		click(loginBtn);
 	} catch (Exception e) {
 		System.out.println("element not interactable: " + e.getMessage());
